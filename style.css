@@ -497,6 +497,7 @@ html:not(.js) #hero-video[hidden] { display: block !important; margin-top: 20px;
 /* ---------- cite / footer ---------- */
 .bib { position: relative; padding: 0; overflow: hidden; }
 .bib pre { margin: 0; padding: 24px 26px; overflow-x: auto; font: 400 13.5px/1.6 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--ink); }
+.bib pre a { color: var(--accent); }
 .copy { position: absolute; top: 12px; right: 12px; padding: 7px 14px; font-size: 13.5px; background: var(--surface); }
 .footer { margin-top: clamp(80px, 10vw, 120px); background: var(--paper-2); color: var(--ink); border-top: 1px solid var(--hair); }
 .footer-in { max-width: var(--wrap); margin: 0 auto; padding: 40px var(--gutter); display: flex; flex-wrap: wrap; gap: 24px 32px; align-items: center; justify-content: space-between; }
