@@ -1,6 +1,6 @@
 @font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-Thin.otf") format("opentype"); font-weight: 100; font-style: normal; font-display: swap; }
 @font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-Light.otf") format("opentype"); font-weight: 300; font-style: normal; font-display: swap; }
-@font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-.otf") format("opentype"); font-weight: 700; font-style: italic; font-display: swap; }
 @font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-Semi-Bold.otf") format("opentype"); font-weight: 600; font-style: normal; font-display: swap; }
 
 /* SAADI project page, built on the LiGHT lab project-page template */
@@ -82,7 +82,7 @@ mark { background: var(--accent-soft); color: var(--accent); padding: 0 .12em; b
 .hero::before { content: ""; position: absolute; z-index: -1; inset: 0 0 auto auto; width: min(54vw, 760px); height: min(44vw, 620px); background: linear-gradient(145deg, #68afe728, #68afe700 70%); clip-path: polygon(41% 0, 100% 0, 100% 100%, 0 0); pointer-events: none; }
 .hero-head { max-width: 960px; margin: 0 auto; padding: 0 var(--gutter); text-align: center; }
 .hero h1 { font: 800 clamp(76px, 12vw, 144px)/1 var(--sans); color: var(--accent); letter-spacing: -0.02em; }
-.subtitle { font: 600 clamp(21px, 2.4vw, 28px)/1.3 var(--display); color: var(--ink-2); max-width: 31em; margin: 18px auto 26px; text-wrap: balance; }
+.subtitle { font: 400 clamp(21px, 2.4vw, 28px)/1.3 var(--display); color: var(--ink-2); max-width: 31em; margin: 18px auto 26px; text-wrap: balance; }
 /* one phrase per line: title, expanded acronym, rest of the title */
 .subtitle > span { display: block; }
 /* about 20em wide: shrink the name on narrow phones so it keeps one line */
