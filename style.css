@@ -95,7 +95,7 @@ mark { background: var(--accent-soft); color: var(--accent); padding: 0 .12em; b
 
 .lab-logos { display: flex; align-items: center; gap: 28px; }
 .hero-labs { justify-content: center; margin: 0 0 28px; }
-.light-logo { width: 116px; }
+.light-logo { width: 104px; }
 .epfl-logo { width: 78px; }
 .hslu-logo { width: 104px; }
 
@@ -506,7 +506,7 @@ html:not(.js) #hero-video[hidden] { display: block !important; margin-top: 20px;
 .footer { margin-top: clamp(80px, 10vw, 120px); background: var(--paper-2); color: var(--ink); border-top: 1px solid var(--hair); }
 .footer-in { max-width: var(--wrap); margin: 0 auto; padding: 40px var(--gutter); display: flex; flex-wrap: wrap; gap: 24px 32px; align-items: center; justify-content: space-between; }
 .footer-identity { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 32px; width: 100%; }
-.footer .light-logo { width: 106px; }
+.footer .light-logo { width: 96px; }
 .footer .epfl-logo { width: 72px; }
 .footer .hslu-logo { width: 96px; }
 .footer-contact { display: grid; gap: 4px; }
@@ -552,7 +552,7 @@ html:not(.js) #hero-video[hidden] { display: block !important; margin-top: 20px;
   .quote-pair { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .connector { transform: rotate(90deg); font-size: 24px; }
   .lab-logos { gap: 20px; }
-  .light-logo { width: 96px; }
+  .light-logo { width: 88px; }
   .epfl-logo { width: 66px; }
   .hslu-logo { width: 88px; }
   #hero-scene { border-radius: 16px; }

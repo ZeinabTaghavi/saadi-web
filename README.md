@@ -64,5 +64,5 @@ The original exposure and difficulty PNGs have been replaced in the page by a na
 - Context expansion: Table 26, retaining the methods plotted in Figure 3(a).
 - Hops: Table 21 for BM25 and agents; BGE-M3 recovered from the PDF's vector paths and axis coordinates and rounded to one decimal. The triangle-marked dense curves in Figure 3(b) are BGE-M3; the square-marked curves in Figure 3(a) are Contriever.
 - Agent trajectories are explicitly distinguished from the fixed top-10 setting in the context/hop views. Y axes begin at zero.
-- `assets/light.svg` is the current LiGHT logo (stacked, blue), copied unchanged from `Logo Stacked Blue.svg`. Institutional order remains LiGHT, EPFL, HSLU.
+- `assets/light.svg` is the current LiGHT wordmark, copied unchanged from `Logo_Light.svg`. Institutional order remains LiGHT, EPFL, HSLU.
 - Headings use Ivy Presto Headline, self-hosted from `fonts/`; body text stays Manrope.
