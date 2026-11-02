@@ -13,7 +13,7 @@ python3 -m http.server 8787 --directory .
 The layout and visual style follow the LiGHT lab project-page template, as used for CLIMB (climb.light-laboratory.org):
 
 - Warm paper background, navy ink and a royal-blue accent, set as CSS variables at the top of `style.css`.
-- Manrope for text and the acronym title; Cormorant Garamond for headings, the subtitle and italic variables.
+- Manrope for text and the acronym title; Ivy Presto Headline for headings, the subtitle and italic variables.
 - A sticky translucent navigation bar with section links and an active-section underline.
 - A centred hero: the acronym, the expanded title, authors with affiliations, lab logos and Paper, Code and BibTeX buttons.
 - An animated overview panorama with a "Watch overview" button that swaps in the video.
@@ -64,4 +64,5 @@ The original exposure and difficulty PNGs have been replaced in the page by a na
 - Context expansion: Table 26, retaining the methods plotted in Figure 3(a).
 - Hops: Table 21 for BM25 and agents; BGE-M3 recovered from the PDF's vector paths and axis coordinates and rounded to one decimal. The triangle-marked dense curves in Figure 3(b) are BGE-M3; the square-marked curves in Figure 3(a) are Contriever.
 - Agent trajectories are explicitly distinguished from the fixed top-10 setting in the context/hop views. Y axes begin at zero.
-- `assets/light.png` is the newly supplied LiGHT logo, copied unchanged. Its pale blue background is hidden in CSS (a slight brightness lift plus `mix-blend-mode: multiply`). Institutional order remains LiGHT, EPFL, HSLU.
+- `assets/light.svg` is the current LiGHT logo (stacked, blue), copied unchanged from `Logo Stacked Blue.svg`. Institutional order remains LiGHT, EPFL, HSLU.
+- Headings use Ivy Presto Headline, self-hosted from `fonts/`; body text stays Manrope.

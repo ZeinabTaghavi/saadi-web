@@ -1,3 +1,8 @@
+@font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-Thin.otf") format("opentype"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-Light.otf") format("opentype"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Ivy Presto Headline"; src: url("fonts/fonnts.com-Ivy-Presto-Headline-Semi-Bold.otf") format("opentype"); font-weight: 600; font-style: normal; font-display: swap; }
+
 /* SAADI project page, built on the LiGHT lab project-page template */
 
 :root {
@@ -17,7 +22,7 @@
   --agent: #a9bcd6;
   --shadow: 0 10px 30px -22px rgba(12, 67, 160, .2);
   --r: 10px;
-  --display: "Cormorant Garamond", Georgia, serif;
+  --display: "Ivy Presto Headline", Georgia, serif;
   --sans: "Manrope", -apple-system, "Segoe UI", sans-serif;
   --mono: "Manrope", -apple-system, "Segoe UI", sans-serif;
   --wrap: 1120px;
@@ -90,8 +95,7 @@ mark { background: var(--accent-soft); color: var(--accent); padding: 0 .12em; b
 
 .lab-logos { display: flex; align-items: center; gap: 28px; }
 .hero-labs { justify-content: center; margin: 0 0 28px; }
-/* light.png sits on a pale blue tile; lift it to white so multiply drops it */
-.light-logo { width: 96px; filter: brightness(1.04) contrast(1.06); mix-blend-mode: multiply; }
+.light-logo { width: 116px; }
 .epfl-logo { width: 78px; }
 .hslu-logo { width: 104px; }
 
@@ -502,7 +506,7 @@ html:not(.js) #hero-video[hidden] { display: block !important; margin-top: 20px;
 .footer { margin-top: clamp(80px, 10vw, 120px); background: var(--paper-2); color: var(--ink); border-top: 1px solid var(--hair); }
 .footer-in { max-width: var(--wrap); margin: 0 auto; padding: 40px var(--gutter); display: flex; flex-wrap: wrap; gap: 24px 32px; align-items: center; justify-content: space-between; }
 .footer-identity { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px 32px; width: 100%; }
-.footer .light-logo { width: 88px; }
+.footer .light-logo { width: 106px; }
 .footer .epfl-logo { width: 72px; }
 .footer .hslu-logo { width: 96px; }
 .footer-contact { display: grid; gap: 4px; }
@@ -548,7 +552,7 @@ html:not(.js) #hero-video[hidden] { display: block !important; margin-top: 20px;
   .quote-pair { grid-template-columns: minmax(0, 1fr); gap: 10px; }
   .connector { transform: rotate(90deg); font-size: 24px; }
   .lab-logos { gap: 20px; }
-  .light-logo { width: 80px; }
+  .light-logo { width: 96px; }
   .epfl-logo { width: 66px; }
   .hslu-logo { width: 88px; }
   #hero-scene { border-radius: 16px; }
